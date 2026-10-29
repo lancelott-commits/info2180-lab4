@@ -89,6 +89,8 @@ if ($Hero === "") {
         <p><?= htmlspecialchars($found['biography']); ?></p>
         <?php
     } else {
-        echo "<p>Superhero not found</p>";
+        ?>
+        <h2 class = "not_found"> Superhero not found </h2>
+        <?php
     }
 }

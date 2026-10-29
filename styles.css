@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background-color: #0F172A   ;
+    color: #F4F6F9 ;
+}
+
+
+body header {
+    border-top: 10px solid #0A192F;
+    border-bottom: 1px solid black;
+    background-color: #0A192F;
+    color: #FFD700;
+    
+}
+
+body header h1 {
+    justify-self: center;
+}
+
+.controls {
+    justify-self: center;
+    
+}
+
+.controls button {
+    color: #FFD700;
+    background-color: #0A192F;
+}
+
+main{
+    color: #F4F6F9;
+}
+
+main .not_found {
+    color: red;
+}
